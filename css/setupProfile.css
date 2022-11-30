@@ -1,0 +1,214 @@
+body{
+    background-color: #EEEFF1;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*round edge*/
+.content,
+.photos,
+.top-background-photo{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.welcome-description{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.welcome-description p:nth-child(1){
+    font-size: 45px;
+}
+
+/* Content box - containing all info from user profile
+should be right in the center of the screen*/
+.content{
+    background-color: white;
+    position: relative;
+    top: 20%;
+    left: 0;
+    right: 0;
+    width: 700px;
+    /* width: 40%; */
+    height: 100%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.photos{
+    position: relative;
+}
+
+/*user background photo
+container for background photo
+*/
+.update-icon:hover i{
+    color: #3185FC;
+}
+
+.update-icon{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #3185FC;
+    text-align: center;
+    overflow: hidden;
+}
+
+.update-icon i{
+    color: white;
+}
+
+.update-icon > #update-btn{
+    position: absolute;
+    transform: scale(2);    /*make the button bigger for bigger hit box*/
+    opacity: 0;
+}
+
+.top-background-photo{
+    background-color: #D9D9D9;
+    border: 3px solid transparent;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.top-background-photo:hover{
+    border: 3px solid #3185FC;
+}
+
+.top-background-photo:hover .update-icon{
+    background-color: white;
+}
+
+.update-icon .bg-cam{
+    font-size: x-large;
+}
+
+/* the bg pic */
+.top-background-photo .background-photo{
+    position: absolute;
+    top:0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+/* nested class with update-icon */
+.bg-icon{
+    top: 40%;
+    left: 50%;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    line-height: 55px;
+}
+
+.bottom-background-photo{
+    background-color: white; /*TD: change to white*/
+    height: 50px;
+}
+
+/* user avatar */
+.user-avatar{
+    bottom: 5px;
+    left: 40px;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    overflow: hidden;
+}
+
+/* nested class with update-icon */
+.avatar-icon{
+    top: 10px;
+    right: 10px;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;      /*space out the icon and the submit button*/
+}
+
+/*position the avatar picture*/
+.user-avatar img{
+    background-color: #f2f2f2;
+    position: relative;
+    border-radius: 50%;
+    border: solid white 7.5px;
+    width: 90%;
+    height: 90%;
+}
+
+.user-avatar:hover img{
+    border-color: #3185FC;
+}
+
+.user-avatar:hover .update-icon{
+    background-color: white;
+}
+
+.description{
+    padding-left: 40px; /*must align with the user avatar*/
+    padding-right: 40px;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    align-self: baseline;
+}
+
+#user-name{
+    padding: 4px;
+    width: 200px;
+    font-size: large;
+}
+
+/* Skill tags system */
+.skill-tags{
+    padding-left: 0px;
+}
+.skill-tags > .tag{
+    border: 1px solid black;
+    border-radius: 13px;
+    background-color: #3185FC;
+    display: inline;
+    margin-right: 5px;
+    padding: 3px 10px 3px 10px;
+    
+}
+
+/* Web urls and Education */
+.skills input{
+    width: 120px;
+    padding: 4px;
+}
+
+.skills{
+    display: inline;
+    margin-left: 4px;
+}
+
+.common{
+    border-right: 1px solid;
+}
+
+.introduction{
+    margin: 50px auto 0px auto
+}
+
+.bio{
+    margin: 10px auto auto auto;
+    width: 100%;
+}
+
+.button{
+    background-color: #3185FC;
+    border-radius: 10px;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    margin-left: 1300px;
+}
