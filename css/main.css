@@ -1,0 +1,1065 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css");
+@import url("https://use.fontawesome.com/releases/v5.13.1/css/all.css");
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  margin: 0px;
+  padding: 0px;
+  /* font-family: 'Akaya Telivigala', cursive;
+  font-size: x-large; */
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Nav bar */
+header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 5;
+  text-align: center;
+  background-color: #070706;
+}
+
+header .logo {
+  letter-spacing: .2em;
+  font-weight: 1000em;
+  font-size: 30px;
+  color: #fff;
+  margin-top: 0.5em;
+}
+
+.button-home {
+  color: white;
+  background-color: #3185FC;
+  padding: 15px;
+  border-radius: 50%;
+  transition: all .2s ease-in-out;
+}
+.button-home:hover {
+  transform: scale(1.5);
+}
+
+.button-home2 {
+  color: black;
+  background-color: #D9D9D9;
+  padding: 17px;
+  padding-inline: 7px;
+  border-radius: 50%;
+  font-size: small;
+  transition: all .2s ease-in-out;
+}
+.button-home2:hover {
+  transform: scale(1.5);
+}
+
+.button-home3 {
+  color: white;
+  background-color: #0CEEB3;
+  padding: 18px;
+  padding-inline: 7px;
+  border-radius: 50%;
+  font-size: small;
+  transition: all .2s ease-in-out;
+}
+
+.button-home3:hover {
+  transform: scale(1.5);
+}
+
+.button-home4 {
+  color: black;
+  background-color: #D9D9D9;
+  padding: 18px;
+  padding-inline: 8px;
+  border-radius: 50%;
+  font-size: small;
+  
+  transition: all .2s ease-in-out;
+}
+
+.button-home4:hover {
+  transform: scale(1.5);
+}
+
+.menu{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  float: right;
+  grid-gap: 5px;
+  font-size: medium;
+  margin-bottom: 27px;
+}
+
+header nav {
+  background: transparent !important;
+  text-align: center;
+  padding-top: 1em;
+}
+
+nav li {
+  list-style: none;
+}
+
+.header-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  -ms-grid-columns: 2fr 6fr;
+      grid-template-columns: 2fr 6fr;
+}
+
+/*Nav Side*/
+.line{
+  margin-right: 30px;
+}
+.nav-side{
+  grid-template-rows: repeat(4, 1fr);
+  font-size: medium;
+  width: 150px !important;
+  background-color: #c5cac6;
+  height: 140vh;
+  margin-bottom: 0 !important;
+  cursor: pointer;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+  position: relative;
+  padding-top: 30px;
+}
+.user-nav{
+  color: black;
+  background-color: #51df9f;
+  padding: 20px;
+  padding-inline: 10px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  font-size: small;
+  transition: all .2s ease-in-out;
+}
+.nav-side li{
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.button-home5 {
+  color: black;
+  background-color: #51df9f;
+  padding: 20px;
+  padding-inline: 10px;
+  border-radius: 50%;
+  font-size: small;
+  transition: all .2s ease-in-out;
+}
+.button-add{
+  color: black;
+}
+.account-status{
+  position: absolute;
+  bottom: 0;
+  color: #070706;
+}
+.account-status a:hover {
+  color: red;
+}
+
+/* Body */
+.main-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1.5fr;
+      grid-template-columns: 1fr 1.5fr;
+  grid-gap: 4rem;
+  height: 20rem;
+}
+
+
+/*Home Page*/
+.main-page{
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3fr;
+      grid-template-columns: 1fr 3fr;
+  margin-top: 75px;
+  height: 140vh;
+}
+
+/*Post Form*/
+.mainForm{
+  border: #070706;
+  margin-top:140px;
+  margin-bottom: 50px;
+  height: 100%;
+  width: 60%;
+  margin-left: 20%;
+  border-width: 10px;
+  border-radius: 3%;
+  background-color: #ced4da;
+}
+.sub-heading{
+  text-align: center;
+}
+.mainForm form{
+  width: 50%;
+  margin-left: 20%;
+  margin-bottom: 50px;
+  padding-bottom: 40px;
+}
+.Form-button{
+  width: 30% !important;
+  font-size: large;
+  background-color: #40d3d5;
+  color: #fff;
+  border: 1px solid #697e83;
+  cursor: pointer;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+  margin-bottom: 20px;
+  margin-top: 20px;
+  float: right;
+  border-radius: 10%;        
+}
+
+
+
+
+
+
+
+.main-padding{
+  border: #4e7182;
+  border-radius: 20%;
+  margin-top: 100px;
+  height: 100%;
+  margin-bottom: 100px;
+}
+
+a {
+  transition: .3s all ease, -webkit-transition;
+  text-decoration: none;
+  color: #3185FC;
+}
+
+
+.main-page .button {
+  width: 20%;
+  font-size: small;
+}
+
+.button {
+  background-color: #40d3d5;
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+  letter-spacing: .15em;
+  color: #fff;
+  border: 1px solid #697e83;
+  cursor: pointer;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+}
+
+.button:hover {
+  color: #40d3d5;
+  background-color: #fff;
+}
+
+/* Chat Room */
+#chatroomLeft {
+  margin-top: 105px;
+  float: left;
+  width: 20%;
+  background-color: #e8e8e8;
+}
+
+#group {
+  border: 5px solid #181818;
+  border-bottom: none;
+  height: 315px;
+  width: 100%;
+  background-color: #e8e8e8;
+}
+
+#group h1 {
+  background-color: #e8e8e8;
+  margin-left: 1.0em;
+  margin-top: 1.0em;
+}
+
+hr {
+  margin-left: 2.0em;
+  margin-right: 3.0em;
+  border: 1px solid;
+}
+
+button {
+  border: none;
+  margin-top: 40px;
+  margin-left: 2.0em;
+  transition: all .2s ease-in-out;
+  background-color: #e8e8e8;
+  font-weight: bold;
+}
+
+button:hover {
+  transform: scale(1.5);
+}
+
+#membs {
+  list-style: none;
+  background-color: #e8e8e8;
+}
+
+#membs li {
+  margin-top: 0.5em;
+  background-color: #e8e8e8;
+}
+
+#members {
+  font-size: 18px;
+  margin-left: 25px;
+}
+
+#chatrooms {
+  border: 5px solid #181818;
+  border-top: none;
+  height: 315px;
+  width: 100%;
+  background-color: #e8e8e8;
+}
+
+#chan {
+  margin-left: 25px;
+  font-size: 18px;
+}
+
+#chatrooms ul {
+  display: none;
+  background-color: #e8e8e8;
+  list-style: none;
+}
+
+#chatrooms li {
+  background-color: #e8e8e8;
+  padding-top: 10px;
+  width: 100%;
+}
+
+#chatrooms a {
+  background-color: #e8e8e8;
+  color: black;
+  text-decoration: none;
+}
+
+#chatrooms a:hover {
+  color: white;
+  background-color: #3185FC;
+}
+
+#chat {
+  margin-top: 105px;
+  float: right;
+  border: 5px solid #181818;
+  width: 79%;
+  height: 630px;
+  background-color: #FCFCFC;
+}
+
+#chat h2 {
+  background-color: #FCFCFC;
+  margin-left: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-right: 5px;
+  width: 20%;
+}
+
+#chat form {
+  display: flex;
+  margin-top: 525px;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  background-color: #e8e8e8;
+}
+
+#usermsg {
+  border-radius: 25px 25px;
+  width: 100%;
+}
+
+
+
+/*Profile Page*/
+
+.content,
+.photos,
+.top-background-photo{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+/*should be right in the center of the screen*/
+.content{
+    background-color: white;
+    position: absolute;
+    top: 15%;
+    bottom:0;
+    left: 0;
+    right: 0;
+    width: 40%;
+    margin: auto;
+}
+
+.photos{
+    position: relative;
+}
+
+/*user background photo
+container for background photo
+*/
+.top-background-photo{
+    background-color: #D9D9D9;
+    height: 200px;
+    position: relative;
+}
+
+.top-background-photo > .background-photo{
+    position: absolute;
+    top:0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+.bottom-background-photo{
+    background-color: white; /*TD: change to white*/
+    height: 50px;
+}
+
+/* .photos > .user-avatar{
+    bottom: 5px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    border-width: 7.5px;
+    left: 40px;
+    position: absolute; 
+    width: 120px;
+} */
+
+.description{
+    padding-left: 40px; /*must align with the user avatar*/
+    padding-right: 40px;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-name{
+    margin-top: 0px;
+}
+
+.skill-tags{
+    padding-left: 0px;
+}
+.skill-tags > .tag{
+    border: 1px solid black;
+    border-radius: 13px;
+    display: inline;
+    margin-right: 5px;
+    padding: 3px 10px 3px 10px;
+    
+}
+.common{
+    border-right: 2px solid black;
+    padding-right: 6px;
+}
+
+.skills{
+    display: inline;
+}
+
+.introduction{
+    margin: 50px auto 0px auto
+}
+
+.bio{
+    margin: 10px auto auto auto;
+}
+
+
+/*Tabs*/
+[data-tab-content]{
+    display: none;
+}
+
+.active[data-tab-content]{
+    display:block;
+}
+
+.tab-headers{
+    border-bottom: 1px solid black;
+}
+.tab-headers > .tab-h{
+    display: inline;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/*underline the active tab*/
+.tab-headers > .tab-h.active{
+    border-bottom: 2px solid black;
+}
+
+.tab-headers,
+.tab-headers > .tab-h.active{
+    padding-bottom: 10px;
+}
+
+.tab-content{
+    padding-left: 40px;
+}
+
+/*TD: highlight the active tab text*/
+
+
+
+/*footer*/
+.footer {
+  text-align: center;
+  margin-bottom: 1em;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.footer-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-footer {
+  padding: 0.4em 0em 0.3em 0em;
+  background: rgb(9, 9, 9);
+  color: #fff;
+}
+
+.copyright {
+  text-align: center;
+}
+
+button {
+  margin-top: 0 !important;
+}
+
+#toggle {
+  display: none;
+}
+
+.label {
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 30px;
+  float: right;
+  color: #fff;
+}
+
+
+.plan-form label {
+  color: #4e7182;
+}
+
+.plan-form input {
+  width: 100%;
+}
+
+.plan-form textarea {
+  width: 100%;
+}
+
+/*signUp-signIn-signOut*/
+
+.sign-up {
+  background-color: #ced4da;
+  border: solid;
+  width: 50%;
+  margin-left: 20%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding: 2rem;
+}
+
+.sign-up label {
+  margin: 1rem;
+}
+
+.sign-in {
+  background-color: #ced4da;
+  border: solid;
+  width: 50%;
+  margin-left: 20%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding: 2rem;
+}
+
+.sign-in label {
+  margin: 1rem;
+}
+
+.container-logout{
+  height: 100vh;
+  text-align: center;
+}
+
+header .logo-1 {
+  letter-spacing: .2em;
+  font-weight: 1000em;
+  font-size: 30px;
+  color: #fff;
+  margin-top: 0.5em;
+  margin-bottom: 15px;
+}
+
+.acc {
+  color: red;
+  font-size: 3rem;
+  margin-left: 10%;
+}
+
+.connect {
+  color: red;
+  margin-left: 60%;
+  font-size: 2rem;
+}
+
+@media (max-width: 992px) {
+  .main-page{
+    margin-top: 100px;
+    height: 100%;
+  }
+  .Nav-side{
+    margin-top: 0 !important;
+  }
+  .nav-side{
+    padding-bottom: 100vh;
+    margin-left: -10px;
+  }
+  .line{
+    margin-right: 20px;
+    margin-left:20px ;
+  }
+  
+
+  .label {
+    display: block;
+    cursor: pointer;
+  }
+  nav ul {
+    text-align: center;
+    max-height: 0;
+    position: absolute;
+    background-color: rgba(14, 14, 14, 0.8);
+    overflow: hidden;
+  }
+  .menu{
+    top: 5.6em;
+    width: 80%;
+    left: 10%;
+  }
+  .item > a > img {
+    width: 100%;
+    height: 100%;
+  }
+  nav a {
+    opacity: 1;
+  }
+  #toggle:checked + .menu {
+    max-height: 500px;
+  }
+  header > div .logo {
+    float: left;
+    padding: 1em 0.5em 0.5em 0.5em;
+  }
+  .menu a {
+    display: block;
+    margin: 0;
+  }
+  .footer, textarea {
+    width: 100%;
+    text-align: center;
+    margin: 0.8em 0 0.8em 0;
+  }
+  .sideleft {
+    padding-bottom: 1em;
+  }
+  .sideleft img {
+    width: 80%;
+  }
+ 
+  .footer {
+    margin-bottom: 1em;
+  }
+  button {
+    margin-top: 1em !important;
+  }
+  .main-grid {
+    height: 50rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .plans, .footer-grid, .main-grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .footer-grid {
+    display: block;
+  }
+  .main-grid {
+    height: 87rem;
+  }
+  .contact1 {
+    height: 220vh;
+  }
+  .nav-side{
+    margin-left: -30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-link {
+    font-size: small;
+  }
+ 
+}
+
+@media (max-width: 992px) {
+  .pagination {
+    width: 50%;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding-left: 0;
+    list-style: none;
+    border-radius: .25rem;
+  }
+  .page-item {
+    background-color: inherit;
+    top: 0;
+  }
+}
+
+/*Sign up page*/
+.signupFlexbox{
+  display: flex;
+  column-gap: 100px;
+  height: 100%;
+}
+
+.sidebox{
+  background-color:#3185FC;
+  color: white;
+  position: relative;
+  font-size: 70px;
+  font-weight: bold;
+  padding-left: 50px;
+  padding-right: 250px;
+}
+
+.logo{
+  font-size: 40px;
+  margin-top: 100px;
+}
+
+.description{
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding: 0px;
+}
+
+.description > p{
+  font-weight: bold;
+  color: #D9D9D9;
+  margin: 0px;
+}
+
+.description p:nth-child(2){
+  font-size: 35px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+label{
+  font-weight: bold;
+}
+
+input{
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  width: 400px;
+  height: 40px;
+}
+
+#email{
+  margin-bottom: 50px;
+}
+
+button{
+  background-color: #0CEEB3;
+  border: 0px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  padding-right: 20px;
+  width: 200px;
+  height: 50px;
+}
+
+/******Set up profile page******/
+body{
+  background-color: #EEEFF1;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*round edge*/
+.content,
+.photos,
+.top-background-photo{
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.skill-tags,
+.setupProfile-button{
+  opacity: 0.5;
+}
+
+.welcome-description{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.welcome-description p:nth-child(1){
+  font-size: 45px;
+}
+
+/* Content box - containing all info from user profile
+should be right in the center of the screen*/
+.content{
+  background-color: white;
+  position: relative;
+  top: 20%;
+  left: 0;
+  right: 0;
+  width: 700px;
+  /* width: 40%; */
+  height: 100%;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+.photos{
+  position: relative;
+}
+
+/*user background photo
+container for background photo
+*/
+.update-icon:hover i{
+  color: #3185FC;
+}
+
+.update-icon{
+  position: absolute;
+  border-radius: 50%;
+  background-color: #3185FC;
+  text-align: center;
+  overflow: hidden;
+}
+
+.update-icon i{
+  color: white;
+}
+
+.update-icon > #update-btn{
+  position: absolute;
+  transform: scale(2);    /*make the button bigger for bigger hit box*/
+  opacity: 0;
+}
+
+.top-background-photo{
+  background-color: #D9D9D9;
+  border: 3px solid transparent;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+
+.top-background-photo:hover{
+  border: 3px solid #3185FC;
+}
+
+.top-background-photo:hover .update-icon{
+  background-color: white;
+}
+
+.update-icon .bg-cam{
+  font-size: x-large;
+}
+
+/* the bg pic */
+.top-background-photo .background-photo{
+  position: absolute;
+  top:0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+/* nested class with update-icon */
+.bg-icon{
+  top: 40%;
+  left: 50%;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  line-height: 55px;
+}
+
+.bottom-background-photo{
+  background-color: white; /*TD: change to white*/
+  height: 50px;
+}
+
+/* user avatar */
+.user-avatar{
+  bottom: 5px;
+  left: 40px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  overflow: hidden;
+}
+
+/* nested class with update-icon */
+.avatar-icon{
+  top: 10px;
+  right: 10px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;      /*space out the icon and the submit button*/
+}
+
+/*position the avatar picture*/
+.user-avatar img{
+  background-color: #f2f2f2;
+  position: relative;
+  border-radius: 50%;
+  border: solid white 7.5px;
+  width: 90%;
+  height: 90%;
+}
+
+.user-avatar:hover img{
+  border-color: #3185FC;
+}
+
+.user-avatar:hover .update-icon{
+  background-color: white;
+}
+
+.setupProfile-description{
+  padding-left: 40px; /*must align with the user avatar*/
+  padding-right: 40px;
+}
+
+.flexbox{
+  display: flex;
+  justify-content: space-between;
+}
+
+.setupProfile-button{
+  align-self: baseline;
+  padding: 0px;
+  width: 100px;
+}
+
+#user-name{
+  padding: 4px;
+  width: 200px;
+  font-size: large;
+}
+
+/* Skill tags system */
+.skill-tags{
+  padding-left: 0px;
+}
+
+.skill-tags > .tag{
+  border: none;
+  border-radius: 13px;
+  background-color: #3185FC;
+  color: white;
+  display: inline;
+  margin-right: 5px;
+  padding: 3px 10px 3px 10px;
+  
+}
+
+/* Web urls and Education */
+.skills input{
+  width: 120px;
+  padding: 4px;
+}
+
+.skills{
+  display: inline;
+  margin-left: 4px;
+}
+
+.common{
+  border-right: 1px solid;
+}
+
+.introduction{
+  margin: 50px auto 0px auto
+}
+
+.bio{
+  margin: 10px auto auto auto;
+  width: 100%;
+}
+
+.button{
+  background-color: #3185FC;
+  border-radius: 10px;
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  margin-left: 1300px;
+  bottom: 30px;
+}
+
+
+
