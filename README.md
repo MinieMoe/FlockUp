@@ -1,7 +1,21 @@
 # FlockUp
-A one-quarter-long group project called FlockUp.
-It is a social networking website application that assists students to find a team to create projects togetherso that they have something to show on their resumes, making them stand out in the job market. Responsible for the front-end development of the web application.
-Collaborated with a UX student and applied their Figma designs of the sign up, sign in, and profile pages to the product using HTML and CSS. (currently still in process)
+<h2>Member: Thuan Nguyen, Min Nguyen, Jack Sparling, and Kristian Kottcamp </h2>
 
-This is not the full project. This is just my contribution the project.
-Link to the entire project: send at request
+
+<h1> Developer</h1>
+<h2>Install:</h2>
+<ul>
+    <li> npm start</li>
+
+</ul>
+
+
+<h2> Notes: </h2>
+<ul>
+    <li> Make a new branch for your page such as namePage (accountPage, profilePage, browserPage, ...) </li>
+    <li> All Page Struture is created, feel free to change html file to js or php file (or css to scss) if needed</li>
+    <li> Data_table folder is stored sql database table </li>
+</ul>
+
+
+
